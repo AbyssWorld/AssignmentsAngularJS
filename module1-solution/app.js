@@ -11,7 +11,7 @@
         $scope.messageToUser = "";
         $scope.checkItems = function () {
           var stringLunchItems = $scope.lunchItems;
-          if(stringLunchItems == ""){
+          if(stringLunchItems == "" || stringLunchItems === undefined){
             $scope.messageToUser = "Please enter data first";
           }else {
             var arrayOfItems = stringLunchItems.split(',');
