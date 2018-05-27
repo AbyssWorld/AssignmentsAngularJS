@@ -1,0 +1,8 @@
+<div class="item-margin">
+  <ul>
+    <li ng-repeat="item in Ctrl2.itemsArray">
+      {{item.short_name + ", " + item.name +", " + item.description}}
+      <button ng-click="Ctrl2.removeItem({indx : $index});">Don't want this one!</button>
+    </li>
+  </ul>
+</div>
