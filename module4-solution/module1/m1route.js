@@ -8,7 +8,7 @@
     $urlRouterProvider.otherwise('/home');
     $stateProvider.state('home',{
       url: '/home',
-      templateUrl: './templates/home.html'
+      templateUrl: 'templates/home.html'
     });
   }
 })();
